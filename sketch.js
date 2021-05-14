@@ -47,13 +47,13 @@ function keyPressed(){
       mouse.addAnimation("mouseTeasing",mouseImg2);
       mouse.changeAnimation("mouseTeasing");
       mouseFrameDelay = 25;
+      
+      cat.addAnimation("catRunning",catImg2);
+      cat.changeAnimation("catRunning");
+      cat.velocityX = 2;
 
 }
-  if (keycode === LEFT_ARROW){
-    cat.addAnimation("catRunning",catImg2);
-    cat.changeAnimation("catRunning");
-    cat.velocityX = 2;
-  }
+
 
 
 }
