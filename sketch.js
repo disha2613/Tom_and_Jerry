@@ -43,7 +43,7 @@ function draw() {
 function keyPressed(){
 
   //For moving and changing animation write code here
-  if (keyDown === LEFT_ARROW){
+  if (keyCode === LEFT_ARROW){
       mouse.addAnimation("mouseTeasing",mouseImg2);
       mouse.changeAnimation("mouseTeasing");
       mouseFrameDelay = 25;
