@@ -27,7 +27,8 @@ function setup(){
 
 function draw() {
 
-    background(0);
+    background(225);
+    keyPressed();
     //Write condition here to evalute if tom and jerry collide
 
     if(cat.x - mouse.x < (cat.width - mouse.width)/2 ){
