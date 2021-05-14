@@ -19,7 +19,7 @@ function setup(){
     cat = createSprite(800,700);
     cat.addAnimation("cat_resting",catImg);
     cat.scale = 0.1;
-    mouse = createSprite(400,400);
+    mouse = createSprite(400,700);
     mouse.scale = 0.1;
     mouse.addAnimation("mouse_resting",mouseImg);
 
