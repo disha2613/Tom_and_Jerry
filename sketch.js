@@ -36,7 +36,7 @@ function draw() {
     if(cat.x - mouse.x < (cat.width - mouse.width)/2 ){
       
         cat.velocityX=0;
-        cat.addAnimation("tomLastImage", tomImg3);
+        cat.addAnimation("tomLastImage", catImg3);
         cat.x =300;
         cat.scale=0.2;
         cat.changeAnimation("cat",catImg3);
