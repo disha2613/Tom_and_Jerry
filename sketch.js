@@ -1,6 +1,6 @@
 var bgImg;
-var cat, catImg, catImg2;
-var mouse, mouseImg, mouseImg2;
+var cat, catImg, catImg2, catImg3;
+var mouse, mouseImg, mouseImg2, mouseImg3;
 
 
 function preload() {
@@ -21,6 +21,7 @@ function setup(){
     cat = createSprite(800,700);
     cat.addAnimation("cat_resting",catImg);
     cat.scale = 0.1;
+    
     mouse = createSprite(400,700);
     mouse.scale = 0.1;
     mouse.addAnimation("mouse_resting",mouseImg);
